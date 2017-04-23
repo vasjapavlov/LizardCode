@@ -1,0 +1,188 @@
+/* Code generated && tested by LizardCode for CodeFu */
+#include <limits.h>
+#include <vector>
+#include <sstream>
+#include <iostream>
+#include <algorithm>
+#include <cstring>
+#include <string>
+#include <cstdlib>
+#include <cstdio>
+#include <map>
+#include <list>
+#include <queue>
+#include <set>
+
+using namespace std;
+
+class PalindromSubstring
+{
+  public:
+
+	string longest( string inString )
+	{
+	 
+	 
+	}
+};
+
+const int Test_No=0;
+
+int main()
+{
+  PalindromSubstring tmp;
+  string res;
+  string inString;
+/***************************Test 1 ********************************/
+
+if(Test_No==0 || Test_No==1){
+inString = "a";
+res = tmp.longest(inString);
+if(res == "a") cout<<"test #"<<1<<" Correct!\n\n";
+  else {cout<<"test #"<<1<<" Wrong!\n";
+cout<<"Expected: "<<"a"<<"\n";
+cout<<"Recieved: "<< res <<" \n\n";}
+cout<<"---------------------------------------------"<<"\n";
+
+}
+/******************************************************************/
+
+
+/***************************Test 2 ********************************/
+
+if(Test_No==0 || Test_No==2){
+inString = "abcaea";
+res = tmp.longest(inString);
+if(res == "aea") cout<<"test #"<<2<<" Correct!\n\n";
+  else {cout<<"test #"<<2<<" Wrong!\n";
+cout<<"Expected: "<<"aea"<<"\n";
+cout<<"Recieved: "<< res <<" \n\n";}
+cout<<"---------------------------------------------"<<"\n";
+
+}
+/******************************************************************/
+
+
+/***************************Test 3 ********************************/
+
+if(Test_No==0 || Test_No==3){
+inString = "zaaayaabce";
+res = tmp.longest(inString);
+if(res == "aayaa") cout<<"test #"<<3<<" Correct!\n\n";
+  else {cout<<"test #"<<3<<" Wrong!\n";
+cout<<"Expected: "<<"aayaa"<<"\n";
+cout<<"Recieved: "<< res <<" \n\n";}
+cout<<"---------------------------------------------"<<"\n";
+
+}
+/******************************************************************/
+
+
+/***************************Test 4 ********************************/
+
+if(Test_No==0 || Test_No==4){
+inString = "akjqwheasdasdqweasdeasdasdqweqweqqqqqqqalksjdaeoi";
+res = tmp.longest(inString);
+if(res == "qqqqqqq") cout<<"test #"<<4<<" Correct!\n\n";
+  else {cout<<"test #"<<4<<" Wrong!\n";
+cout<<"Expected: "<<"qqqqqqq"<<"\n";
+cout<<"Recieved: "<< res <<" \n\n";}
+cout<<"---------------------------------------------"<<"\n";
+
+}
+/******************************************************************/
+
+
+/***************************Test 5 ********************************/
+
+if(Test_No==0 || Test_No==5){
+inString = "ddddccccxxxxbbbb";
+res = tmp.longest(inString);
+if(res == "bbbb") cout<<"test #"<<5<<" Correct!\n\n";
+  else {cout<<"test #"<<5<<" Wrong!\n";
+cout<<"Expected: "<<"bbbb"<<"\n";
+cout<<"Recieved: "<< res <<" \n\n";}
+cout<<"---------------------------------------------"<<"\n";
+
+}
+/******************************************************************/
+
+
+/***************************Test 6 ********************************/
+
+if(Test_No==0 || Test_No==6){
+inString = "cb";
+res = tmp.longest(inString);
+if(res == "b") cout<<"test #"<<6<<" Correct!\n\n";
+  else {cout<<"test #"<<6<<" Wrong!\n";
+cout<<"Expected: "<<"b"<<"\n";
+cout<<"Recieved: "<< res <<" \n\n";}
+cout<<"---------------------------------------------"<<"\n";
+
+}
+/******************************************************************/
+
+
+/***************************Test 7 ********************************/
+
+if(Test_No==0 || Test_No==7){
+inString = "akjqqwerjkhhjjklqwerkjhkljqwherkjwheasdasdqweasdeasdasdqweqweqqqqqqqalksjdaeoi";
+res = tmp.longest(inString);
+if(res == "qqqqqqq") cout<<"test #"<<7<<" Correct!\n\n";
+  else {cout<<"test #"<<7<<" Wrong!\n";
+cout<<"Expected: "<<"qqqqqqq"<<"\n";
+cout<<"Recieved: "<< res <<" \n\n";}
+cout<<"---------------------------------------------"<<"\n";
+
+}
+/******************************************************************/
+
+
+/***************************Test 8 ********************************/
+
+if(Test_No==0 || Test_No==8){
+inString = "akopiuqweorkljhqwekrjhoiuyqwherkjwheasdasdqweasdeasdasdqweqweqqqqqqqalksjdaeoi";
+res = tmp.longest(inString);
+if(res == "qqqqqqq") cout<<"test #"<<8<<" Correct!\n\n";
+  else {cout<<"test #"<<8<<" Wrong!\n";
+cout<<"Expected: "<<"qqqqqqq"<<"\n";
+cout<<"Recieved: "<< res <<" \n\n";}
+cout<<"---------------------------------------------"<<"\n";
+
+}
+/******************************************************************/
+
+
+/***************************Test 9 ********************************/
+
+if(Test_No==0 || Test_No==9){
+inString = "aaaaaaaaaaxxxxxxxxxxxxxxxxxaaaaaaaaaaaaaaxxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaxxx";
+res = tmp.longest(inString);
+if(res == "aaaaaaaaaaaaaaxxxxxxxxxxxxxxaaaaaaaaaaaaaa") cout<<"test #"<<9<<" Correct!\n\n";
+  else {cout<<"test #"<<9<<" Wrong!\n";
+cout<<"Expected: "<<"aaaaaaaaaaaaaaxxxxxxxxxxxxxxaaaaaaaaaaaaaa"<<"\n";
+cout<<"Recieved: "<< res <<" \n\n";}
+cout<<"---------------------------------------------"<<"\n";
+
+}
+/******************************************************************/
+
+
+/***************************Test 10 ********************************/
+
+if(Test_No==0 || Test_No==10){
+inString = "uuuuuuuuiiiuiuiuiuiuiiuiuiiiiiiiiiiuuiuiuiuiuiuuuuuuuuuuiuiuiiiiiiiiiiiuiuiuiu";
+res = tmp.longest(inString);
+if(res == "uiuiuiiiiiiiiiiiuiuiu") cout<<"test #"<<10<<" Correct!\n\n";
+  else {cout<<"test #"<<10<<" Wrong!\n";
+cout<<"Expected: "<<"uiuiuiiiiiiiiiiiuiuiu"<<"\n";
+cout<<"Recieved: "<< res <<" \n\n";}
+cout<<"---------------------------------------------"<<"\n";
+
+}
+/******************************************************************/
+
+
+  return 0;
+
+}

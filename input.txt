@@ -1,0 +1,68 @@
+SpikingSensor
+
+Peter got a fancy new sensor for his project. He was really eager to make it into something useful, but he stumbled upon some difficulties.
+Turns out, that the sensor is quite shaky, and sometimes it can spike wrong results. Sometimes less, sometimes more that the real value.
+
+After some research, he came to the conclusion, that if he makes more measurements in a row, the median of the measurements is reliable enough.
+Can you help him with this task.
+
+Given the values as array of integers, return the median of it.
+A median of an array is calculated like this
+- sort the array
+- if the array is of odd size, then the median is the element in the middle
+- if the array is of even size, then the median is the average of the two elements in the middle, rounded half up to the nearest integer.
+
+Examples:
+
+Input: {4,0,3}
+Sorted: {0,3,4}
+The median is 3.
+
+Input: {0,10,3,4}
+Sorted: {0,3,4,10}
+The median is (3+4)/2 = 3.5 => 4 
+
+Input parameters:
+  values - array of integers representing the measurements
+
+Constraints:
+  values will consist of one to 50 elements inclusive
+  each element of values will be between 0 and 200 inclusive
+ 
+Return value:
+  int - the median of the measurements
+Class Name:
+  SpikingSensor
+
+Method signature:
+  public int getMedian(int[] values)
+
+Test Case 1:
+  getMedian({4,0,3}) = 3
+
+Test Case 2:
+  getMedian({0,10,3,4}) = 4
+
+Test Case 3:
+  getMedian({10,5,7,0}) = 6
+
+Test Case 4:
+  getMedian({18,8,0,4,0,4,19,15,3,11}) = 6
+
+Test Case 5:
+  getMedian({5,7,20,2,4,8,20,10,8,4}) = 8
+
+Test Case 6:
+  getMedian({18,19,17,19,5,2,7,11,2,1}) = 9
+
+Test Case 7:
+  getMedian({13,10,7,6,8,9,15,5,20,17}) = 10
+
+Test Case 8:
+  getMedian({10,19,5,17,10,2,15,2,12,19}) = 11
+
+Test Case 9:
+  getMedian({4,8,10,13,11,17,9,6,14}) = 10
+
+Test Case 10:
+  getMedian({13,3,16,15,20,18}) = 16
