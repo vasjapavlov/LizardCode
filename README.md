@@ -1,5 +1,5 @@
 # LizardCode
-Solution and test case generator for CodeFu (www.codefu.mk) contests.
+C++ solution and test case generator for CodeFu (www.codefu.mk) contests.
 
 ------------------------------------------------------------------------------------------
 USER GUIDE
@@ -10,7 +10,7 @@ USER GUIDE
 
 3) Save it and then run the file LizardCode executable you created. 
 
-4) A file output.txt will be created. Copy the contents of that file into your compiler and start coding!
+4) A file output.txt will be created. Copy the contents of that file into your IDE and start coding!
 
 Note: make sure "input.txt" and the executable are in the same directory/folder.
 
