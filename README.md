@@ -1,18 +1,16 @@
 # LizardCode
 Solution and test case generator for CodeFu (www.codefu.mk) contests.
 
+------------------------------------------------------------------------------------------
 USER GUIDE
 
-Copy the full text of a codefu problem , together with the test cases,
-into the file "input.txt" . 
+1) Build "LizardCode.exe" to create an executable (.exe on Windows for example)
 
-Save it and then run the file "LizardCode.exe". 
+2)  Copy the full text of a codefu problem , together with the test cases, into the file "input.txt" . 
 
-A file output.txt will be created. Copy the contents of that file into
-your compiler and start coding!
+3) Save it and then run the file LizardCode executable you created. 
 
-Note: make sure "input.txt" and "LizardCode.exe" are in the same 
-folder/location.
+4) A file output.txt will be created. Copy the contents of that file into your compiler and start coding!
 
-Source code is in LizardCode.cpp(if you're interested :D )
+Note: make sure "input.txt" and the executable are in the same directory/folder.
 
